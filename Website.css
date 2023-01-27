@@ -1,0 +1,564 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+/* nav bar started */
+.navbar {
+    background-color: aliceblue;
+    justify-content: flex-end;
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.company-name {
+    margin-left: 120px;
+    padding: 10px;
+}
+
+.company-name a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+}
+
+.navbar div a span {
+    color: chartreuse;
+}
+
+.index ul {
+    margin-left: 200px;
+}
+
+.index ul li {
+    display: inline-block;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.index ul li a {
+    color: black;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.icons ul {
+    margin-right: 50px;
+}
+
+.icons ul li {
+    justify-content: space-between;
+    display: inline-block;
+    padding: 14px;
+}
+
+.icons ul li a {
+    color: gray;
+    justify-content: space-around;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.icons ul li a .fa-twitter {
+    border-left: 2px solid black;
+    padding-left: 20px;
+}
+
+.icons ul li a:hover {
+    color: chartreuse;
+    transition: all 0.15s;
+    transform: scale(1.5);
+}
+
+.index ul li a:hover {
+    color: chartreuse;
+    transition: all .15s
+}
+
+section div ul li .homeli {
+    color: chartreuse;
+}
+
+/* .navbar:hover div a, .navbar:hover div ul li a, .navbar:hover div ul li a i
+{
+    transform: scale(0.9);
+} */
+
+/* nav bar ended */
+
+/* main image started */
+.mainimage {
+    background-image: url(./slide-2.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 750px;
+    display: flex;
+    position: relative;
+}
+
+.mainimage .text-box {
+    border-top: 5px solid chartreuse;
+    width: 800px;
+    height: 220px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.674);
+    margin-top: 489px;
+    margin-left: 348px;
+
+}
+
+.mainimage .text-box h1,
+.mainimage .text-box h3 {
+    text-align: center;
+}
+
+.mainimage .text-box h1 {
+    font-size: 39px;
+    font-weight: bolder;
+}
+
+.mainimage .text-box .read-more {
+    border: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.mainimage .text-box .read-more span:hover {
+    color: black;
+    background-color: greenyellow;
+}
+
+.mainimage .text-box div span {
+    margin-top: 50px;
+    color: white;
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    border: chartreuse 2px solid;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.mainimage .text-box h3 {
+    padding: 15px;
+}
+
+/* main image endded */
+
+
+/* Paragraph strted  */
+.para {
+    padding: 88px;
+    display: flex;
+}
+
+.para .para1 {
+    height: 380px;
+    width: 1395px;
+    padding: 20px;
+    font-size: 20px;
+    color: gray;
+}
+
+.para .para2 {
+    height: 380px;
+    width: 1395px;
+    padding: 31px;
+    color: gray;
+}
+
+.para .para1 h1 {
+    font-size: 39px;
+    color: rgb(0, 0, 0);
+}
+
+.para .para2 .para31 {
+    margin-top: 10px;
+}
+
+.para .para2 .para32 {
+    margin-top: 10px;
+}
+
+.para .para2 .para33 i {
+    font-size: 17px;
+    color: chartreuse;
+    transition: all 0.15s;
+}
+
+/* Paragraph is ended */
+
+/*icon boxes started*/
+.iconboxs {
+    background-color: #f7f7f7;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 131px;
+}
+
+.iconboxs .iconbox {
+    background-color: #fff;
+    height: 365px;
+    width: 347px;
+    text-align: center;
+    justify-content: space-around;
+    margin: 30px;
+    padding: 28px;
+    transition: all 1s;
+}
+
+.iconboxs .iconbox h4 {
+    font-size: 31px;
+}
+
+.iconboxs .iconbox p {
+
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.iconboxs .iconbox span i {
+    padding-top: 20px;
+    border-radius: 100%;
+    font-size: 75px;
+    height: 117px;
+    width: 117px;
+    background-color: gray;
+
+}
+
+.iconboxs .iconbox .span {
+
+    margin-left: 87px;
+    height: 117px;
+    width: 117px;
+    display: inline-block;
+    border-radius: 100%;
+
+}
+
+.iconboxs .iconbox1:hover span i {
+    background-color: rgb(0, 183, 255);
+}
+
+.iconboxs .iconbox2:hover span i {
+    background-color: rgb(255, 149, 0);
+}
+
+.iconboxs .iconbox3:hover span i {
+    background-color: rgb(255, 0, 157);
+}
+
+.iconboxs .iconbox4:hover span i {
+    background-color: rgb(255, 225, 0);
+}
+
+.iconboxs .iconbox5:hover span i {
+    background-color: rgb(255, 174, 0);
+}
+
+.iconboxs .iconbox6:hover span i {
+    background-color: rgb(0, 255, 242);
+}
+
+.iconboxs .iconbox:hover span i {
+    color: #fff;
+}
+
+.iconboxs .iconbox1 span i {
+    color: rgb(0, 183, 255);
+}
+
+.iconboxs .iconbox2 span i {
+    color: rgb(255, 149, 0);
+}
+
+.iconboxs .iconbox3 span i {
+    color: rgb(255, 0, 157);
+}
+
+.iconboxs .iconbox4 span i {
+    color: rgb(255, 225, 0);
+}
+
+.iconboxs .iconbox5 span i {
+    color: rgb(255, 174, 0);
+}
+
+.iconboxs .iconbox6 span i {
+    color: rgb(0, 255, 242);
+}
+
+.iconboxs .iconbox:hover {
+    transform: scale(1.15);
+    box-shadow: #acaaaa 0px 0px 50px 5px;
+}
+
+
+/* icon boxes endded */
+
+/* imges started */
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 130px;
+}
+
+.images div .image {
+    position: relative;
+    display: block;
+
+}
+
+.images div .image div {
+    position: absolute;
+    display: flex;
+    top: auto;
+    bottom: -74px;
+    right: 30px;
+    left: 30px;
+    height: 77px;
+    width: 340px;
+    padding-left: 10px;
+    padding-top: 21px;
+    opacity: 0;
+    background-color: #fff;
+    transition: all 0.40s;
+
+}
+
+.images div .image:hover div {
+    background-color: white;
+    opacity: 1;
+    bottom: 30px;
+    transform: scale(1.08);
+    box-shadow: #acaaaa 0px 0px 5px 5px;
+}
+
+.images div .image div .fa-plus {
+    margin-left: 215px;
+}
+
+.images div .image div i {
+    margin: 12px;
+    font-size: 20px;
+}
+
+.images div .image div i:hover {
+    color: chartreuse;
+}
+
+.images div .image1 img {
+    width: 380px;
+    height: auto;
+}
+
+.images div .image2 img {
+    width: 380px;
+    height: auto;
+}
+
+.images div .image3 img {
+    width: 380px;
+    height: auto;
+}
+
+.images div .image4 img {
+    width: 380px;
+    height: auto;
+}
+
+.images div .image5 img {
+    width: 380px;
+    height: auto;
+}
+
+.images div .image6 img {
+    width: 380px;
+    height: auto;
+}
+
+.images div .image7 img {
+    width: 380px;
+    height: auto;
+}
+
+.images div .image8 img {
+    width: 380px;
+    height: auto;
+}
+
+.images div .image9 img {
+    width: 380px;
+    height: auto;
+}
+
+.images div div img {
+    margin: 10px;
+}
+
+/* images ended */
+
+
+/* product logo started */
+.product-logos ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 204px;
+    list-style: none;
+}
+.product-logos ul li a img {
+    filter: grayscale();
+    height: 141px;
+    width: 250px;
+    display: flex;
+    margin: 6px;
+    padding: 36px;
+    transition: all 0.3s;
+}
+.product-logos ul li a img:hover {
+    transform: scale(1.450);
+    filter: none;
+    padding: 36px;
+}
+
+
+/* .product-logo1, .product-logo2 , .product-logo3 {
+    border-top:gray solid 1px;
+    border-right:gray solid 0px;
+    border-bottom:gray solid 0px;
+    border-left:gray solid 1px;
+}
+.product-logo4{
+    border-top:gray solid 1px;
+    border-right:gray solid 1px;
+    border-left:gray solid 1px;
+}
+.product-logo8{
+    border-top:gray solid 1px;
+    border-right:gray solid 1px;
+    border-bottom:gray solid 1px;
+    border-left:gray solid 1px;
+}
+ .product-logo5 , .product-logo6, .product-logo7{
+    border-top:gray solid 1px;
+    
+    border-bottom:gray solid 1px;
+    border-left:gray solid 1px;
+} */
+
+/* product logo ended */
+
+
+/* footer text started */
+.footer-text {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.footer-text div {
+    height: 180px;
+    width: 305px;
+    padding: 33px;
+    padding-left: 130px;
+    padding-bottom: 289px;
+    position: relative;
+}
+
+.footer-text div h1,
+.footer-text div p {
+    transition: all 0.1s;
+    list-style: none;
+    color: #f7f7f7;
+    padding-bottom: 2px;
+}
+
+.footer-text div ul li {
+    padding: 7px;
+    color: #f7f7f7;
+    list-style: none;
+    transition: all 0.1s;
+}
+
+.footer-text div h1:hover,
+.footer-text div p:hover,
+.footer-text div ul li:hover,
+.footer-text div form:hover {
+    transform: scale(1.2);
+}
+
+.footer-text div h1 {
+    padding-bottom: 8px;
+}
+
+.footer-text div label {
+    background-color: chartreuse;
+}
+
+.footer-text div p {
+    padding-top: 10px;
+}
+
+.footer-text .subscribe {
+    padding-left: 100px;
+    width: 450px;
+}
+
+.footer-text div .product-logo-list {
+    padding-top: 10px;
+}
+
+.footer-text .subscribe input {
+    padding: 2px;
+    height: 23px;
+    width: 200px;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.footer-text .subscribe form button {
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100px;
+    height: 20px;
+    border: none;
+    background-color: chartreuse;
+    transition: all 0.1s;
+
+}
+
+.footer-text .subscribe form {
+    margin-top: 15px;
+    width: auto;
+    padding: 4px;
+    background-color: chartreuse;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.footer-text div li i {
+    font-size: 12px;
+    color: rgb(128, 255, 0);
+}
+
+/* footer text endded */
